@@ -5,12 +5,10 @@ import java.util.Scanner;
 public class lab2_3 {
     public static void main(String[] args) {
         System.out.println("height: ");
-        Scanner sc1= new Scanner(System.in);
-        float h = sc1.nextFloat();
+        Scanner sc= new Scanner(System.in);
+        float h = sc.nextFloat();
         System.out.println("weight:");
-        Scanner sc2= new Scanner(System.in);
-        float w = sc2.nextFloat();
-
+        float w = sc.nextFloat();
         float BMI;
         BMI = w/(h*2);
 
@@ -22,7 +20,8 @@ public class lab2_3 {
         }
         else if(BMI<=24.9){
             System.out.println("Normal weight");
-        } else if (BMI <=29.9) {
+        }
+        else if (BMI <=29.9) {
             System.out.println("Overweight");
             float b ;
             b = (float) (BMI-24.9);
