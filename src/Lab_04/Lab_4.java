@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Lab_4 {
+    
     public static void main(String[] args) {
 
         List<Integer> myArrayList = new ArrayList<>(Arrays.asList(2, 4, 1, 6, 8, 5, 7));
